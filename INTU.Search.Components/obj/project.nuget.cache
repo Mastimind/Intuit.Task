@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "RIU9HGsWeAX0afmqzcracxzhlBydY3OWsY8AZcK9069qsERXtMd7rNR9fu7uirw6+yCovCTIcoF61B6CM2sAlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Components\\INTU.Search.Components.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harin\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
+    "C:\\Users\\harin\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512"
+  ],
+  "logs": []
+}

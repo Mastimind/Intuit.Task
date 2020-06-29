@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "WoV2KcbBX7KlDCUAJ2pF0VNhCQiXkNRWCg6nEf6K00xCfNDFp/6R9Ime7WnwgIEDw72NRc9n+GiqVoUxjFB76A==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Model\\INTU.Search.Model.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harin\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\harin\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

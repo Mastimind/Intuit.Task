@@ -1,0 +1,9 @@
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\bin\Debug\netstandard2.0\INTU.Search.Model.deps.json
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\bin\Debug\netstandard2.0\INTU.Search.Model.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\bin\Debug\netstandard2.0\INTU.Search.Model.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.csprojAssemblyReference.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.AssemblyInfoInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.AssemblyInfo.cs
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.csproj.CoreCompileInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Model\obj\Debug\netstandard2.0\INTU.Search.Model.pdb
