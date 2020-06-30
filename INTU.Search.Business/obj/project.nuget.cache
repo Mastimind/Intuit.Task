@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OjcqCHT2WS/UsgOXxImPKuzgSAb710JQnm0+sxx1qOhu584GppL4lReDTI5qbSrTpoa0KbPOyzRERCwUhoB/DA==",
+  "success": true,
+  "projectFilePath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Business\\INTU.Search.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\harin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

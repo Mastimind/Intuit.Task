@@ -1,0 +1,14 @@
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Business.deps.json
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Business.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Business.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Client.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Model.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Client.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\bin\Debug\netcoreapp3.1\INTU.Search.Model.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.csprojAssemblyReference.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.AssemblyInfoInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.AssemblyInfo.cs
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.csproj.CoreCompileInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.csproj.CopyComplete
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Business\obj\Debug\netcoreapp3.1\INTU.Search.Business.pdb

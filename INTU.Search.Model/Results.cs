@@ -4,9 +4,16 @@ namespace INTU.Search.Model
 {
     public class ImagesResult
     {
-        public string ImageName { get; set; }
-        public string Uri { get; set; }
-        public string Thumbnails { get; set; }
+        private string _uri;
+        public ImagesResult(string uri)
+        {
+            _uri = uri;
+        }
+        public Uri ImageName => string.IsNullOrEmpty(_uri) ? null : new Uri($"{_uri}_n.jpg");
+
+        public string Uri => _uri;
+
+        public Uri Thumbnails => string.IsNullOrEmpty(_uri) ? null : new Uri($"{_uri}_t.jpg");
     }
 
     public class TweetsResult

@@ -21,3 +21,9 @@ C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\obj\Debug\netcoreapp3.1\U
 C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Model.dll
 C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Model.pdb
 C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\obj\Debug\netcoreapp3.1\INTU.Search.Components.csproj.CopyComplete
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Business.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Client.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.ViewModel.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.ViewModel.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Business.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Components\bin\Debug\netcoreapp3.1\INTU.Search.Client.pdb

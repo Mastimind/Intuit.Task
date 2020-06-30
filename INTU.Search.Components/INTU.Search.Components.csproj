@@ -35,6 +35,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\INTU.Search.Model\INTU.Search.Model.csproj" />
+    <ProjectReference Include="..\INTU.Search.ViewModel\INTU.Search.ViewModel.csproj" />
   </ItemGroup>
 
 </Project>

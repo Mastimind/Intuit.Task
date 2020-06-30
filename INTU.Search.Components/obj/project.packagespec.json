@@ -17,6 +17,9 @@
         "projectReferences": {
           "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Model\\INTU.Search.Model.csproj": {
             "projectPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Model\\INTU.Search.Model.csproj"
+          },
+          "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.ViewModel\\INTU.Search.ViewModel.csproj": {
+            "projectPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.ViewModel\\INTU.Search.ViewModel.csproj"
           }
         }
       }

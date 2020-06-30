@@ -25,3 +25,14 @@ C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\obj\Debug\netcoreapp3.1\INTU.Sear
 C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\obj\Debug\netcoreapp3.1\INTU.Search.UI.dll
 C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\obj\Debug\netcoreapp3.1\INTU.Search.UI.pdb
 C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\obj\Debug\netcoreapp3.1\INTU.Search.UI.genruntimeconfig.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\Caliburn.Micro.Platform.Core.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\Caliburn.Micro.Platform.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\System.Windows.Interactivity.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\Caliburn.Micro.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.Business.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.Client.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.ViewModel.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.Business.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.Client.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.UI\bin\Debug\netcoreapp3.1\INTU.Search.ViewModel.pdb

@@ -1,0 +1,59 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Business\\INTU.Search.Business.csproj",
+    "projectName": "INTU.Search.Business",
+    "projectPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Business\\INTU.Search.Business.csproj",
+    "outputPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Business\\obj\\",
+    "projectStyle": "PackageReference",
+    "originalTargetFrameworks": [
+      "netcoreapp3.1"
+    ],
+    "sources": {
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "projectReferences": {
+          "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Client\\INTU.Search.Client.csproj": {
+            "projectPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Client\\INTU.Search.Client.csproj"
+          },
+          "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Model\\INTU.Search.Model.csproj": {
+            "projectPath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Model\\INTU.Search.Model.csproj"
+          }
+        }
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.1": {
+      "dependencies": {
+        "Newtonsoft.Json": {
+          "target": "Package",
+          "version": "[12.0.3, )"
+        }
+      },
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true,
+      "frameworkReferences": {
+        "Microsoft.NETCore.App": {
+          "privateAssets": "all"
+        }
+      },
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+    }
+  }
+}

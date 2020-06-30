@@ -60,5 +60,20 @@ namespace INTU.Search.UI
             ((MaterialDesignThemes.Wpf.Transitions.Transitioner) GridMainContent.Children[0])
                 .SelectedIndex = _transitionCmd[screenName];
         }
+
+        private void AboutMe_OnClick(object sender, RoutedEventArgs e)
+        {
+            ButtonNav_Click(sender, e);
+        }
+
+        private void ImageResult_OnClick(object sender, RoutedEventArgs e)
+        {
+            ButtonNav_Click(sender, e);
+        }
+
+        private void TwitterResult_OnClick(object sender, RoutedEventArgs e)
+        {
+            ButtonNav_Click(sender, e);
+        }
     }
 }

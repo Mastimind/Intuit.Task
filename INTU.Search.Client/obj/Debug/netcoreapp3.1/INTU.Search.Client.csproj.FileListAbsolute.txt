@@ -1,0 +1,9 @@
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\bin\Debug\netcoreapp3.1\INTU.Search.Client.deps.json
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\bin\Debug\netcoreapp3.1\INTU.Search.Client.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\bin\Debug\netcoreapp3.1\INTU.Search.Client.pdb
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.csprojAssemblyReference.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.AssemblyInfoInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.AssemblyInfo.cs
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.csproj.CoreCompileInputs.cache
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.dll
+C:\Workspace\Intuit\INTU.Search\INTU.Search.Client\obj\Debug\netcoreapp3.1\INTU.Search.Client.pdb
