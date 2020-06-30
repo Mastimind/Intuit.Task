@@ -9,26 +9,59 @@
              d:DesignHeight="600" d:DesignWidth="1080">
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="250"></RowDefinition>
+            <RowDefinition Height="200"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Background="#FF2793D8">
-            <materialDesign:ColorZone Mode="Light" Foreground="AliceBlue" VerticalAlignment="Stretch"
-                                      HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" >
-                <TextBlock Text="Image Search Result" FontSize="25" Margin="25" VerticalAlignment="Center">
+                <TextBlock Text="Image Search Result" Foreground="AliceBlue" FontSize="25" Margin="10"
+                           VerticalAlignment="Center">
                 </TextBlock>
-            </materialDesign:ColorZone>
-            <Grid Width="100" HorizontalAlignment="Right" Margin="20">
-                <StackPanel Orientation="Horizontal">
-                    <Button Width="50" Height="50" VerticalAlignment="Bottom" Background="{x:Null}"
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <TextBox Name="TextBoxSearch" FontSize="15" Background="AliceBlue" Foreground="Black" 
+                         Width="600" Height="50" Margin="0 0 10 0"></TextBox>
+                <Button Click="ButtonSearch_Click" Width="60" Height="50" VerticalAlignment="Center"  Background="{x:Null}" BorderBrush="{x:Null}">
+                    <materialDesign:PackIcon Kind="Search" VerticalAlignment="Center" Width="25" Height="25">
+                    </materialDesign:PackIcon>
+                </Button>
+            </StackPanel>
+            <Grid Width="100" HorizontalAlignment="Right" Margin="10" Background="{x:Null}">
+                <StackPanel Orientation="Horizontal" Background="{x:Null}">
+                    <Button Width="50" Height="50" VerticalAlignment="Top" Background="{x:Null}"
                             BorderBrush="{x:Null}" Command="{x:Static materialDesign:Transitioner.MoveFirstCommand}"
                             Style="{DynamicResource MaterialDesignFloatingActionButton}">
-                        <materialDesign:PackIcon Kind="ArrowLeft" Foreground="AliceBlue" Width="50" Height="50" VerticalAlignment="Bottom">
-                            
+                        <materialDesign:PackIcon Kind="ArrowLeft" Foreground="AliceBlue" Width="25" Height="25"
+                                                 VerticalAlignment="Center">
                         </materialDesign:PackIcon>
                     </Button>
                 </StackPanel>
             </Grid>
         </StackPanel>
+        <Grid Grid.Row="1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40"></RowDefinition>
+                <RowDefinition Height="*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <StackPanel Grid.Row="0">
+                <TextBlock Name="TextBlockLoading" Visibility="Collapsed" Text="Loading ...." HorizontalAlignment="Center" Foreground="#FF022841" Margin="10"></TextBlock>
+            </StackPanel>
+               <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+            <ItemsControl  ItemsSource="{Binding ImagesResults}">
+                <ItemsControl.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal" ItemWidth="100" Width="600"></WrapPanel>
+                    </ItemsPanelTemplate>
+                </ItemsControl.ItemsPanel>
+                <ItemsControl.ItemTemplate>
+                    <DataTemplate>
+                        <materialDesign:Card Height="100" Width="100" Margin="10">
+                            <StackPanel>
+                                <Image Width="90" Height="90" Margin="5" Source="{Binding Thumbnails}"></Image>
+                            </StackPanel>
+                        </materialDesign:Card>
+                    </DataTemplate>
+                </ItemsControl.ItemTemplate>
+            </ItemsControl>
+         </ScrollViewer>
+        </Grid>
     </Grid>
 </UserControl>

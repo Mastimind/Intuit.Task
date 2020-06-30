@@ -1,6 +1,6 @@
 ﻿using System;
+using System.Collections.ObjectModel;
 using System.Linq;
-using Caliburn.Micro;
 using INTU.Search.Business;
 using INTU.Search.Client;
 using INTU.Search.Model;
@@ -10,19 +10,22 @@ namespace INTU.Search.ViewModel
     public class ImageResultViewModel
     {
         private IFlickrBusiness _businees;
-        public BindableCollection<ImagesResult> ImagesResults { get; set; }
+        public ObservableCollection<ImagesResult> ImagesResults { get; set; }
 
         public ImageResultViewModel()
         {
             _businees= new FlickrBusiness(new ClientFactory());
-             ImagesResults= new BindableCollection<ImagesResult>();       
+             ImagesResults= new ObservableCollection<ImagesResult>();
+             ImagesResults.Add(new ImagesResult("testing"));
         }
 
         public async void SearchImage(string text,int size =100)
         {
+            ImagesResults.Clear();
+            
             var result = await _businees.GetImagesBySearchParams(text);
             
-            ImagesResults.AddRange(result.Take(size));
+            result.Take(size).ToList().ForEach(i=> ImagesResults.Add(i));
         }
     }
 }

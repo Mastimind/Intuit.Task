@@ -37,7 +37,7 @@ namespace INTU.Search.Client
         {  
             var imgParam = (ImageSearchParams) param;
             // For the Api Url written below, just get the new Api Url from the flickr api link the blog  
-            string provideUri = $"{BaseApiUrl}/?method=flickr.photos.getRecent&api_key={_apiKey}&text={imgParam.SearchText}&format=json&nojsoncallback=1";  
+            string provideUri = $"{BaseApiUrl}/?method=flickr.photos.getRecent&api_key={_apiKey}&license=10&sort=relevance&privacy_filter=1&safe_search=1&content_type=4&media=photos&tags={imgParam.SearchText}&&format=json&nojsoncallback=1";  
   
             HttpClient client = new HttpClient();  
             string jsonstring = await client.GetStringAsync(provideUri);  

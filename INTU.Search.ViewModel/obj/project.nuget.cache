@@ -1,33 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "509CjtWz8jt1vupzF9us5pFL/OuWMOFZt2vEBUuyf7gFtDuggcvzMdgK8LP+kmcaSF4YsIQFXMKFTmvU+oPblQ==",
+  "dgSpecHash": "BzNJ5G9TtjhpB86EOjxvXoPjzIzHLkMdbTOlcdbS+Ts+k6zd3NYd73a8M4idtbhZl1N09nnIAfXBajdY2tD9VA==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.ViewModel\\INTU.Search.ViewModel.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harin\\.nuget\\packages\\caliburn.micro\\3.2.0\\caliburn.micro.3.2.0.nupkg.sha512",
-    "C:\\Users\\harin\\.nuget\\packages\\caliburn.micro.core\\3.2.0\\caliburn.micro.core.3.2.0.nupkg.sha512",
     "C:\\Users\\harin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Caliburn.Micro",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro.Core 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Caliburn.Micro.Core",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

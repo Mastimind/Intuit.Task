@@ -1,35 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ifmmGQVrfoNSFKb3ekeFfDFT7qw8ESZ0EM6n2DlxOugL62xtiKDX4ofueaBUNPeUy5ODlMPF434hJVdRxSWu9w==",
+  "dgSpecHash": "nqt9k+g6sXgJt/P2G+YKRpQl2fDaIBWRE5KJQBPblUi8ocuf5l5tXXv4NFAqix5V8xClvRjlCCxSKTsGlHWi8w==",
   "success": true,
   "projectFilePath": "C:\\Workspace\\Intuit\\INTU.Search\\INTU.Search.Components\\INTU.Search.Components.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\harin\\.nuget\\packages\\caliburn.micro\\3.2.0\\caliburn.micro.3.2.0.nupkg.sha512",
-    "C:\\Users\\harin\\.nuget\\packages\\caliburn.micro.core\\3.2.0\\caliburn.micro.core.3.2.0.nupkg.sha512",
     "C:\\Users\\harin\\.nuget\\packages\\materialdesigncolors\\1.2.6\\materialdesigncolors.1.2.6.nupkg.sha512",
     "C:\\Users\\harin\\.nuget\\packages\\materialdesignthemes\\3.1.3\\materialdesignthemes.3.1.3.nupkg.sha512",
     "C:\\Users\\harin\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Caliburn.Micro",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'Caliburn.Micro.Core 3.2.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
-      "libraryId": "Caliburn.Micro.Core",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v3.1"
-      ]
-    }
-  ]
+  "logs": []
 }

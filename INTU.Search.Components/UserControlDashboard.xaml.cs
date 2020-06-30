@@ -28,6 +28,7 @@ namespace INTU.Search.Components
         public UserControlDashboard()
         {
             _viewModel= new ImageResultViewModel();
+            DataContext = _viewModel;
             InitializeComponent();
          /*   _tweetsResult.Add(new TweetsResult(){Tweet = "Nature",Uri = "localhost",User="Me"});
             _tweetsResult.Add(new TweetsResult(){Tweet = "Nature",Uri = "localhost",User="Me"});
@@ -39,9 +40,9 @@ namespace INTU.Search.Components
             _imagesResult.Add(new ImagesResult("localhost/nature.jpg"));*/
         }
 
-        private void ButtonSearch_Click(object sender, RoutedEventArgs e)
+        private  void ButtonSearch_Click(object sender, RoutedEventArgs e)
         {
-            _viewModel.SearchImage(TextBoxSearch.Text);
+                _viewModel.SearchImage(TextBoxSearch.Text,5);
         }
     }
 }

@@ -13,9 +13,9 @@
                 <RowDefinition Height="*"></RowDefinition>
             </Grid.RowDefinitions>
         <StackPanel Grid.Row="0" Background="#FF2793D8">
-            <materialDesign:ColorZone Mode="Light" Foreground="AliceBlue" VerticalAlignment="Stretch"
+            <materialDesign:ColorZone Mode="Light" Background="#FF2793D8" VerticalAlignment="Stretch"
                                        HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" >
-                <TextBlock Text="About Me" FontSize="25" Margin="25" VerticalAlignment="Center">
+                <TextBlock Text="About Me" Foreground="AliceBlue" FontSize="25" Margin="25" VerticalAlignment="Center">
                 </TextBlock>
             </materialDesign:ColorZone>
             <Grid Width="100" HorizontalAlignment="Right" Margin="20">
