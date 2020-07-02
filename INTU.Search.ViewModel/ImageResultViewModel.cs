@@ -21,7 +21,7 @@ namespace INTU.Search.ViewModel
 
         public async void SearchImage(string text,int size =100)
         {
-            ImagesResults.Clear();
+            ImagesResults= new ObservableCollection<ImagesResult>();
             
             var result = await _businees.GetImagesBySearchParams(text);
             

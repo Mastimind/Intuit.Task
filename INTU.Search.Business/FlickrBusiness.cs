@@ -11,6 +11,7 @@ namespace INTU.Search.Business
     public class FlickrBusiness:IFlickrBusiness
     {
         private readonly IAPIClient _client;
+        
         public FlickrBusiness(IClientFactory factory)
         {
             _client = factory.Create("Flicker");

@@ -72,45 +72,56 @@
                             <materialDesign:PackIcon Kind="FormatIndentIncrease" Height="35" Width="35" Foreground="#FF004A7A"></materialDesign:PackIcon>
                         </Button>
                     </Grid>
-                     <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="200" Background="#FF004A7A" Foreground="#FF0077C5" BorderBrush="#FF004A7A">
+                     <ListView ScrollViewer.HorizontalScrollBarVisibility="Disabled" Width="180" Background="#FF004A7A" Foreground="#FF0077C5" BorderBrush="#FF004A7A">
                     <ListViewItem Height="60" >
                         <StackPanel Orientation="Horizontal">
-                            <Button Name="Dashboard" Width="60" Height="50"  Background="{x:Null}" BorderBrush="{x:Null}"
+                            <Button Name="Dashboard"  Background="{x:Null}" BorderBrush="{x:Null}"
                                     Click="ButtonNav_Click">
-                                <materialDesign:PackIcon Kind="ViewDashboard" Width="25" Height="25" VerticalAlignment="Center">
-                                </materialDesign:PackIcon>
-                              </Button>  
-                            <TextBlock Foreground="CornflowerBlue" Text="Dashboard" VerticalAlignment="Center" Margin="10"></TextBlock>
+                                <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="ViewDashboard" Margin="10,0" Width="Auto" Height="Auto"  HorizontalAlignment="Left" VerticalAlignment="Center">
+                                </materialDesign:PackIcon>    
+                            <TextBlock Foreground="CornflowerBlue" Text="Dashboard" Width="Auto" Margin="10,0" Height="Auto"  HorizontalAlignment="Right" VerticalAlignment="Center" ></TextBlock>
+                                </StackPanel>
+                            </Button>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="60">
                         <StackPanel Orientation="Horizontal">
-                            <Button Name="ImageResult" Width="60" Height="50"  Background="{x:Null}" BorderBrush="{x:Null}"
+                       <Button Name="ImageResult" Background="{x:Null}" BorderBrush="{x:Null}"
                                     Click="ButtonNav_Click">
-                                <materialDesign:PackIcon Kind="ImageAlbum" Width="25" Height="25" VerticalAlignment="Center">
+                                <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="ImageAlbum" Margin="10,0" Width="Auto" Height="Auto"  HorizontalAlignment="Left" VerticalAlignment="Center">
                                 </materialDesign:PackIcon>
-                            </Button>
-                            <TextBlock Foreground="CornflowerBlue" Text="Image Result" VerticalAlignment="Center" Margin="10"></TextBlock>
+                           
+                            <TextBlock Foreground="CornflowerBlue" Text="Image Result" Width="Auto" Margin="10,0" Height="Auto"  HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                        </Button>
+                       </StackPanel>
+                    </ListViewItem>
+                    <ListViewItem Height="60">
+                        <StackPanel Orientation="Horizontal">
+                            <Button Name="TwitterResult" Background="{x:Null}" BorderBrush="{x:Null}"
+                                    Click="ButtonNav_Click">
+                                <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Twitter"  Margin="10,0" Width="Auto" Height="Auto"  HorizontalAlignment="Left" VerticalAlignment="Center">
+                                </materialDesign:PackIcon>
+                            
+                            <TextBlock Foreground="CornflowerBlue" Text="Twitter Result" Width="Auto" Margin="10,0" Height="Auto"  HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
+                        </StackPanel>
+                        </Button>
                         </StackPanel>
                     </ListViewItem>
                     <ListViewItem Height="60">
                         <StackPanel Orientation="Horizontal">
-                            <Button Name="TwitterResult" Width="60" Height="50"  Background="{x:Null}" BorderBrush="{x:Null}"
+                            <Button Name="AboutMe"  VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}"
                                     Click="ButtonNav_Click">
-                                <materialDesign:PackIcon Kind="Twitter"  Width="25" Height="25" VerticalAlignment="Center">
+                                <StackPanel Orientation="Horizontal">
+                                <materialDesign:PackIcon Kind="Person" Margin="10,0" Width="Auto" Height="Auto"  HorizontalAlignment="Left" VerticalAlignment="Center">
                                 </materialDesign:PackIcon>
-                            </Button>
-                            <TextBlock Foreground="CornflowerBlue" Text="Twitter Result" VerticalAlignment="Center" Margin="10"></TextBlock>
+                           
+                            <TextBlock Foreground="CornflowerBlue" Text="About Me" Width="Auto" Margin="10,0" Height="Auto"  HorizontalAlignment="Right" VerticalAlignment="Center"></TextBlock>
                         </StackPanel>
-                    </ListViewItem>
-                    <ListViewItem Height="60">
-                        <StackPanel Orientation="Horizontal">
-                            <Button Name="AboutMe" Width="60" Height="50" VerticalAlignment="Bottom" Background="{x:Null}" BorderBrush="{x:Null}"
-                                    Click="ButtonNav_Click">
-                                <materialDesign:PackIcon Kind="Person" Width="25" Height="25" VerticalAlignment="Center">
-                                </materialDesign:PackIcon>
-                            </Button>
-                            <TextBlock Foreground="CornflowerBlue" Text="About Me" VerticalAlignment="Center" Margin="10"></TextBlock>
+                        </Button>
                         </StackPanel>
                     </ListViewItem>
                 </ListView> 
